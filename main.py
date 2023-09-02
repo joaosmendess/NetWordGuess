@@ -1,7 +1,7 @@
 
 
 
-print('Bem vindos ao NewWordGues')
+print('Bem vindos ao NewWordGuess')
 
 
 palavras_dicas = {
@@ -56,3 +56,10 @@ while tentativas > 0 and ''.join(palavra_display) != palavra_selecionada:
     else:
         print ('Esta palavra não contém essa letra, tente novamente.')
         tentativas -= 1
+
+
+if '' .join(palavra_display) ==palavra_selecionada:
+    print(f"Parabéns! A palavra selecionada é {palavra_selecionada}")
+else:
+    print(f"Você perdeu! A palavra selecionada era {palavra_selecionada}")
+        
