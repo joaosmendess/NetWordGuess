@@ -1,8 +1,12 @@
+
+
+
 print('Bem vindos ao NewWordGues')
 
 
 palavras_dicas = {
     'roteador': 'Dispositivo responsável por encaminhar pacotes de dados entre diferentes redes.',
+
     'protocolo': 'Conjunto de regras que define como os dados são transmitidos e recebidos em uma rede.',  
     'switch': 'Dispositivo de rede que opera na camada de enlace do modelo OSI, utilizado principalmente em LANs para interconectar dispositivos. ',
     'ethernet': 'Tecnologia de rede padrão usada para interconectar computadores e outros dispositivos em uma LAN.', 
@@ -12,3 +16,5 @@ palavras_dicas = {
     'WAN': 'Redes projetadas para cobrir distâncias de até milhares de quilômetros, como um país ou continente.'
  
 }
+
+
