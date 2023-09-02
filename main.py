@@ -18,3 +18,7 @@ palavras_dicas = {
 }
 
 
+import random 
+
+palavra_selecionada =random.choice(list(palavras_dicas.keys()))
+dica=palavras_dicas[palavra_selecionada]
